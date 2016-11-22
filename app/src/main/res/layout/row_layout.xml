@@ -1,135 +1,387 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="24dp"
-    android:stretchColumns="*">
-    <TableRow>
-        <TextView
-            android:text="Name"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content"/>
-        <TextView
-            android:text="1"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="2"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="3"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="4"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="5"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="6"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="7"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="8"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="9"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="10"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="Total"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </TableRow>
+    android:orientation="vertical">
+    <TextView
+        android:text="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_margin="0dp">
+            <TextView
+                android:text="1"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="2"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="3"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="4"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="5"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="6"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="7"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="8"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="9"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="10"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="@dimen/cell_width"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Total"
+                android:background="@drawable/border"
+                android:textAlignment="center"
+                android:padding="@dimen/cell_padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
 
-    <TableRow>
-        <TextView
-            android:text="NAMEE"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <LinearLayout>
-            <TextView
-                android:text="8"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:text="9"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-        <LinearLayout>
-            <TextView
-                android:text="8"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:text="9"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-        <LinearLayout>
-            <TextView
-                android:text="8"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:text="9"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-        <LinearLayout>
-            <TextView
-                android:text="8"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:text="9"
-                android:layout_width="@dimen/cell_width"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-    </TableRow>
-
-    <TableRow>
-        <TextView
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="8"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="9"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="8"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="9"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="8"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="9"
-            android:layout_width="@dimen/cell_width"
-            android:layout_height="wrap_content" />
-    </TableRow>
-</TableLayout>
+        <TableRow>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="11"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="12"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="13"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="21"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="22"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="23"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="31"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="32"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="33"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="41"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="42"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="43"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="51"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="52"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="53"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="61"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="62"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="63"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="71"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="72"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="73"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="81"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="82"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="83"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="91"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="92"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="93"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="01"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="02"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="022"
+                        android:textAlignment="center"
+                        android:padding="@dimen/cell_padding"
+                        android:layout_width="@dimen/cell_width"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="03"
+                    android:textAlignment="center"
+                    android:padding="@dimen/cell_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

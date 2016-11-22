@@ -4,9 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TableLayout;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 import java.util.ArrayList;
 
 public class RowAdapter extends RecyclerView.Adapter<RowAdapter.RowViewHolder> {
@@ -16,10 +14,10 @@ public class RowAdapter extends RecyclerView.Adapter<RowAdapter.RowViewHolder> {
     // you provide access to all the views for a data item in a view holder
     public static class RowViewHolder extends RecyclerView.ViewHolder {
         // each data item is just a string in this case
-        public TableLayout table;
-        public RowViewHolder(TableLayout t) {
-            super(t);
-            table = t;
+        public LinearLayout row;
+        public RowViewHolder(LinearLayout r) {
+            super(r);
+            row = r;
         }
     }
 
@@ -35,7 +33,7 @@ public class RowAdapter extends RecyclerView.Adapter<RowAdapter.RowViewHolder> {
         // create a new view
         final View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.row_layout, parent, false);
-        RowViewHolder vh = new RowViewHolder((TableLayout) v);
+        RowViewHolder vh = new RowViewHolder((LinearLayout) v);
         return vh;
     }
 
